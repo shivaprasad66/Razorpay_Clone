@@ -540,62 +540,96 @@
   
    <!-- feature section 2 -->
 
-  <section class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover ">
+  <section class="bg-[url(./images/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[14rem] pb-[600px] mt-14 ">
       
-    <div>
+    <div class="w-10/12 max-w-[1080px] pt-4 mx-auto relative">
 
-      <h2>Explore RazorpayX powered Business Banking</h2>
-      <div>
+      <h2 class="font-mullish text-center text-2xl leading-[1.2] text-white font-bold" >Explore RazorpayX powered Business Banking</h2>
+      <div class="w-6 h-1 bg-greenLight mx-auto mt-4 mb-16">
 
       </div>
 
       <!-- main feature box -->
-      <div> 
+      <div class="w-full min-h-[440px] flex relative " > 
 
-          <img src="./images/x-flame-1.png" alt="">
-          <img src="./images/x-flame-2.png" alt="">
+        <img src="./images/x-flame-1.png" alt=""
+        loading="lazy"
+        class="absolute -top-[142px] -left-[140px] w-[200px]">
+        
+        <img src="./images/x-flame-2.png" alt=""
+        loading="lazy"
+        class="absolute top-[150px] -right-[180px] w-[200px]">
 
           <!-- content Box -->
-          <div>
+       <!--content box-->
+       <div class="relative w-full bg-[#181c2e] p-10 py-12 border border-slate-700 z-20 rounded-md ">
+        <!--left part-->
+        <div class="flex flex-col justify-between items-start h-full w-full gap-12 z-20">
+            <h3 class="font-mullish text-[28px] text-white font-bold leading-10 max-w-[500px]"
+            >Manage your company’s finances and supercharge your business banking with
+                <img src="./images/razorpayX.svg" alt=""
+                width="168px"
+                height="32px"
+                class="inline">
+            </h3>
 
-              <!-- left part -->
-                <div>
-                  <h3>Manage your company’s finances
-                     and supercharge your business banking with 
-                    <img src="./images/razorpayX.svg" alt=""></h3>
-                  <ul>
-                    <li>  <i></i> 
-                      <span>Open a fully digital current account</span>
-                    </li>
-                    <li>
-                      <i></i> 
-                      <span>Automate payables & compliment payments</span>
-                    </li>
-                    <li> <i></i> 
-                      <span>Simplify and track spends with Corporate cards
-                      </span>
-                    </li>
-                    <li> <i></i> 
-                      <span>View financial insights at a glance
-                      </span>
-                    </li>
-                  </ul>
-                  <div>
-                    <button>
-
-                    </button>
-                      
-                    <!-- hyperlink  -->
-                    <div>
-                      <a href=""></a>
-                      <i></i>
-                    </div>
-                  </div>
+            <ul class="space-y-2">
+                <li class="font-mullish text-white flex items-center space-x-2">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Open a fully digital current account
+                    </span>
+                </li>
+                <li class="font-mullish text-white flex items-center space-x-2"> 
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Automate payables & compliment payments
+                </span></li>
+                <li class="font-mullish text-white flex items-center space-x-2">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>Simplify and track spends with Corporate cards
+                    </span>
+                </li>
+                <li class="font-mullish text-white flex items-center space-x-2">
+                    <i data-feather="check" class="text-greenLight"></i>
+                    <span>View financial insights at a glance
+                    </span>
+                </li>
+            </ul>
+            <div class="flex flex-row w-full items-center space-x-4 ">
+                 
+              <button class="relative bg-lightBlue flex items-center justify-center md:pr-[90px]
+              text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 translate-all duration-200">
+                Sign Up
+                <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] 
+                flex justify-center items-center">
+                  <!--arrow-->
+                  <svg
+                  viewBox="0 0 24 24"
+                  focusable="false"
+                  class="w-[20px] h-[20px] -skew-x-[20deg] "
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                  ></path>
+                </svg>
                 </div>
-                <!-- background image for content box-->
-                <img src="./images/buisness-banking.png" alt="">
+              </button>
 
-          </div>
+                <!--hyperlink wala-->
+                <div class="flex flex-row items-center cursor-pointer group">
+                  <a href="#" class="font-mullish font-bold text-lightBlue500
+                   group-hover:text-lightBlue transition-all duration-200">Know More</a>
+                   <i
+                   data-feather="chevron-right"
+                   class="w-5 h-5 text-lightBlue500 group-hover:text-lightBlue transition-all duration-200"
+                   ></i>
+                </div>
+            </div>
+        </div>
+        <!--background image for content box-->
+        <img src="./images/buisness-banking.png" alt="" loading="lazy"
+        class="max-w-[600px] absolute right-0 bottom-0 z-4 hidden md:max-w-[400px] lg:max-w-[600px] md:block lg:block">
+    </div>
 
         </div>
 
