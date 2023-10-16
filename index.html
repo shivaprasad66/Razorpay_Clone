@@ -19,6 +19,23 @@
 
             padding-bottom: 12rem;
         }
+        
+        .moveImage{
+
+          animation: 2s infinite linear moveCompany;
+
+        }
+
+        @keyframes moveCompany {
+
+          0%{
+            top:0;
+          }
+          100%{
+            top:-50%;
+          }
+          
+        }
 
       </style>
 </head>
@@ -839,7 +856,7 @@
 
           </p>
 
-          <button class="relative bg-lightBlue flex items-center justify-center md:pr-[90px]
+          <button class="relative cursor-pointer bg-lightBlue flex items-center justify-center md:pr-[90px]
               text-white py-[14px] px-[18px] rounded-md font-mullish font-bold hover:bg-lightBlue500 translate-all duration-200">
                 Check out the demo
                 <div class="w-12 h-[60px] bg-greenLight absolute right-6 skew-x-[20deg] 
@@ -1056,7 +1073,46 @@
 
    </section>
 
-   
+    <!-- join razropay section  -->
+    <section class="bg-[#f5f8fe] w-full mx-auto relative pt-40 pb-12 -mt-[200px] -z-[200]">
+
+        <div class="w-11/12 max-w-[1080px] mx-auto flex flex-row ">
+            
+            <!-- left part  -->
+            <div class="flex flex-col justify-center max-w-[calc(100%-500px)]" >
+              <h2 class="font-mullish font-bold text-2xl text-deepBlueHead">Join the 50,00,000 businesses using Razorpay</h2>
+              <div class="w-6 h-1 bg-greenLight  mb-10 my-4"></div>
+              <p class="font-mullish opacit
+              y-80 ">We make it easier for you to focus on building great products while we work on simplifying your payments. Become one of us by joining thousands of our happy users
+                 and simplify the online payment experience for your customers.</p>
+              <p class="font-mullish mt-6 opactiy-80 ">Focus on your business while we handle the complexities of payments for you.</p>
+              
+              <button class="relative cursor-pointer bg-lightBlue flex items-center justify-center 
+              text-white py-[12px] px-[18px] rounded-md mr-auto mt-6 font-mullish font-bold hover:bg-lightBlue500 transition-all duration-200">
+              Get Started →
+              </button>
+              
+             
+            </div>
+            
+            
+            <!-- right part  -->
+            <div class="h-[400px] w-[500px] relative overflow-y-hidden ">
+              <div style="background: linear-gradient(180deg, #f4f8ff,#fff0)"
+              class="absolute w-full h-[150px] top-0 z-50"> 
+                
+              </div>
+              <img src="./images/comanies.png" alt="" width="500px" class="absolute h-auto object-cover moveImage"> 
+            </div>
+            <div style="background:linear-gradient(0deg, #f4f8ff,#fff0)"
+            class="absolute w-full h-[150px] bottom-0">
+
+            </div>
+            
+        </div>
+
+
+    </section>
 
 
   <script>
